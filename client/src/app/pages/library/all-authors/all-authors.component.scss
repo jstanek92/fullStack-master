@@ -1,0 +1,30 @@
+// .book-box {
+//   background: lightcoral;
+//   border-radius: 5px;
+//   padding: 5px;
+//   margin: 10px 0;
+//   cursor: pointer;
+// }
+
+.authors-list {
+  li {
+    background: transparent;
+    transition: 0.3s;
+    padding: 2px 5px;
+    border-radius: 4px;
+
+    &:hover {
+      background: lightblue;
+    }
+
+    i {
+      cursor: pointer;
+    }
+  }
+}
+
+.paging-controls {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,40 @@
+{
+  "count": 20,
+  "authors": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Doe"
+    },
+    {
+      "id": 3,
+      "firstName": "Govard",
+      "lastName": "Lavcraft"
+    },
+    {
+      "id": 4,
+      "firstName": "Joahn",
+      "lastName": "Rouling"
+    },
+    {
+      "id": 5,
+      "firstName": "Barb",
+      "lastName": "Hendi"
+    },
+    {
+      "id": 6,
+      "firstName": "Barb",
+      "lastName": "Hendi"
+    },
+    {
+      "id": 7,
+      "firstName": "Mark",
+      "lastName": "Twen"
+    }
+  ]
+}

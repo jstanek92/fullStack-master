@@ -1,0 +1,224 @@
+
+================================NEW BUILD================================
+(Thu May 09 2019 17:46:08 GMT+0300 (Eastern European Summer Time))
+
+[2019-05-09T17:46:08.675] [INFO] nest - AppController {/}:
+[2019-05-09T17:46:08.679] [INFO] nest - Mapped {/, GET} route
+[2019-05-09T17:46:08.680] [INFO] nest - BooksController {/books}:
+[2019-05-09T17:46:08.683] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:46:08.684] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:46:08.685] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:46:08.686] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:46:08.688] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:46:08.688] [INFO] nest - AuthController {/auth}:
+[2019-05-09T17:46:08.690] [INFO] nest - Mapped {/login, POST} route
+[2019-05-09T17:46:08.691] [INFO] nest - Mapped {/data, GET} route
+[2019-05-09T17:46:08.692] [INFO] nest - UsersController {/users}:
+[2019-05-09T17:46:08.693] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:46:08.694] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:46:08.695] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:46:08.696] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:46:08.697] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:46:08.699] [INFO] nest - AuthorsController {/authors}:
+[2019-05-09T17:46:08.700] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:46:08.701] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:46:08.702] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:46:08.703] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:46:08.704] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:46:08.708] [INFO] nest - Nest application successfully started
+
+================================NEW BUILD================================
+(Thu May 09 2019 17:50:29 GMT+0300 (Eastern European Summer Time))
+
+[2019-05-09T17:50:29.990] [INFO] nest - AppController {/}:
+[2019-05-09T17:50:29.995] [INFO] nest - Mapped {/, GET} route
+[2019-05-09T17:50:29.996] [INFO] nest - BooksController {/books}:
+[2019-05-09T17:50:29.998] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:50:29.999] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:50:30.001] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:50:30.005] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:50:30.007] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:50:30.008] [INFO] nest - AuthController {/auth}:
+[2019-05-09T17:50:30.010] [INFO] nest - Mapped {/login, POST} route
+[2019-05-09T17:50:30.012] [INFO] nest - Mapped {/data, GET} route
+[2019-05-09T17:50:30.013] [INFO] nest - UsersController {/users}:
+[2019-05-09T17:50:30.014] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:50:30.015] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:50:30.016] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:50:30.019] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:50:30.021] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:50:30.023] [INFO] nest - AuthorsController {/authors}:
+[2019-05-09T17:50:30.024] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:50:30.026] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:50:30.027] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:50:30.028] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:50:30.029] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:50:30.032] [INFO] nest - Nest application successfully started
+
+================================NEW BUILD================================
+(Thu May 09 2019 17:50:43 GMT+0300 (Eastern European Summer Time))
+
+[2019-05-09T17:50:44.251] [INFO] nest - AppController {/}:
+[2019-05-09T17:50:44.259] [INFO] nest - Mapped {/, GET} route
+[2019-05-09T17:50:44.261] [INFO] nest - BooksController {/books}:
+[2019-05-09T17:50:44.266] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:50:44.267] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:50:44.269] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:50:44.271] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:50:44.273] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:50:44.275] [INFO] nest - AuthController {/auth}:
+[2019-05-09T17:50:44.276] [INFO] nest - Mapped {/login, POST} route
+[2019-05-09T17:50:44.279] [INFO] nest - Mapped {/data, GET} route
+[2019-05-09T17:50:44.280] [INFO] nest - UsersController {/users}:
+[2019-05-09T17:50:44.282] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:50:44.283] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:50:44.284] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:50:44.285] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:50:44.286] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:50:44.287] [INFO] nest - AuthorsController {/authors}:
+[2019-05-09T17:50:44.289] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:50:44.290] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:50:44.291] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:50:44.294] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:50:44.296] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:50:44.299] [INFO] nest - Nest application successfully started
+
+================================NEW BUILD================================
+(Thu May 09 2019 17:56:11 GMT+0300 (Eastern European Summer Time))
+
+[2019-05-09T17:56:12.451] [INFO] nest - AppController {/}:
+[2019-05-09T17:56:12.459] [INFO] nest - Mapped {/, GET} route
+[2019-05-09T17:56:12.460] [INFO] nest - BooksController {/books}:
+[2019-05-09T17:56:12.462] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:56:12.463] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:56:12.465] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:56:12.466] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:56:12.469] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:56:12.471] [INFO] nest - AuthController {/auth}:
+[2019-05-09T17:56:12.472] [INFO] nest - Mapped {/login, POST} route
+[2019-05-09T17:56:12.474] [INFO] nest - Mapped {/data, GET} route
+[2019-05-09T17:56:12.475] [INFO] nest - UsersController {/users}:
+[2019-05-09T17:56:12.477] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:56:12.478] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:56:12.479] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:56:12.480] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:56:12.481] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:56:12.482] [INFO] nest - AuthorsController {/authors}:
+[2019-05-09T17:56:12.483] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:56:12.486] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:56:12.488] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:56:12.490] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:56:12.491] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:56:12.495] [INFO] nest - Nest application successfully started
+
+================================NEW BUILD================================
+(Thu May 09 2019 17:56:22 GMT+0300 (Eastern European Summer Time))
+
+[2019-05-09T17:56:22.746] [INFO] nest - AppController {/}:
+[2019-05-09T17:56:22.753] [INFO] nest - Mapped {/, GET} route
+[2019-05-09T17:56:22.754] [INFO] nest - BooksController {/books}:
+[2019-05-09T17:56:22.756] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:56:22.757] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:56:22.759] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:56:22.761] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:56:22.765] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:56:22.766] [INFO] nest - AuthController {/auth}:
+[2019-05-09T17:56:22.768] [INFO] nest - Mapped {/login, POST} route
+[2019-05-09T17:56:22.769] [INFO] nest - Mapped {/data, GET} route
+[2019-05-09T17:56:22.770] [INFO] nest - UsersController {/users}:
+[2019-05-09T17:56:22.771] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:56:22.772] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:56:22.774] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:56:22.775] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:56:22.776] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:56:22.778] [INFO] nest - AuthorsController {/authors}:
+[2019-05-09T17:56:22.782] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:56:22.784] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:56:22.785] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:56:22.786] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:56:22.788] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:56:22.791] [INFO] nest - Nest application successfully started
+
+================================NEW BUILD================================
+(Thu May 09 2019 17:56:27 GMT+0300 (Eastern European Summer Time))
+
+[2019-05-09T17:56:27.655] [INFO] nest - AppController {/}:
+[2019-05-09T17:56:27.660] [INFO] nest - Mapped {/, GET} route
+[2019-05-09T17:56:27.661] [INFO] nest - BooksController {/books}:
+[2019-05-09T17:56:27.663] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:56:27.666] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:56:27.668] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:56:27.670] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:56:27.672] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:56:27.673] [INFO] nest - AuthController {/auth}:
+[2019-05-09T17:56:27.674] [INFO] nest - Mapped {/login, POST} route
+[2019-05-09T17:56:27.675] [INFO] nest - Mapped {/data, GET} route
+[2019-05-09T17:56:27.676] [INFO] nest - UsersController {/users}:
+[2019-05-09T17:56:27.677] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:56:27.679] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:56:27.680] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:56:27.683] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:56:27.684] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:56:27.686] [INFO] nest - AuthorsController {/authors}:
+[2019-05-09T17:56:27.688] [INFO] nest - Mapped {/create, POST} route
+[2019-05-09T17:56:27.689] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-09T17:56:27.690] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-09T17:56:27.691] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-09T17:56:27.693] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-09T17:56:27.696] [INFO] nest - Nest application successfully started
+
+================================NEW BUILD================================
+(Fri May 17 2019 18:50:26 GMT+0300 (Eastern European Summer Time))
+
+[2019-05-17T18:50:27.464] [INFO] nest - AppController {/}:
+[2019-05-17T18:50:27.471] [INFO] nest - Mapped {/, GET} route
+[2019-05-17T18:50:27.472] [INFO] nest - BooksController {/books}:
+[2019-05-17T18:50:27.474] [INFO] nest - Mapped {/create, POST} route
+[2019-05-17T18:50:27.476] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-17T18:50:27.479] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-17T18:50:27.480] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-17T18:50:27.481] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-17T18:50:27.482] [INFO] nest - AuthController {/auth}:
+[2019-05-17T18:50:27.483] [INFO] nest - Mapped {/login, POST} route
+[2019-05-17T18:50:27.485] [INFO] nest - Mapped {/data, GET} route
+[2019-05-17T18:50:27.487] [INFO] nest - UsersController {/users}:
+[2019-05-17T18:50:27.489] [INFO] nest - Mapped {/create, POST} route
+[2019-05-17T18:50:27.491] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-17T18:50:27.492] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-17T18:50:27.493] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-17T18:50:27.494] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-17T18:50:27.495] [INFO] nest - AuthorsController {/authors}:
+[2019-05-17T18:50:27.496] [INFO] nest - Mapped {/create, POST} route
+[2019-05-17T18:50:27.497] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-17T18:50:27.498] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-17T18:50:27.499] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-17T18:50:27.501] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-17T18:50:27.505] [INFO] nest - Nest application successfully started
+
+================================NEW BUILD================================
+(Tue May 21 2019 14:39:22 GMT+0300 (Eastern European Summer Time))
+
+[2019-05-21T14:39:22.866] [INFO] nest - AppController {/}:
+[2019-05-21T14:39:22.871] [INFO] nest - Mapped {/, GET} route
+[2019-05-21T14:39:22.872] [INFO] nest - BooksController {/books}:
+[2019-05-21T14:39:22.874] [INFO] nest - Mapped {/create, POST} route
+[2019-05-21T14:39:22.875] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-21T14:39:22.876] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-21T14:39:22.877] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-21T14:39:22.879] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-21T14:39:22.879] [INFO] nest - AuthController {/auth}:
+[2019-05-21T14:39:22.881] [INFO] nest - Mapped {/login, POST} route
+[2019-05-21T14:39:22.882] [INFO] nest - Mapped {/data, GET} route
+[2019-05-21T14:39:22.883] [INFO] nest - UsersController {/users}:
+[2019-05-21T14:39:22.886] [INFO] nest - Mapped {/create, POST} route
+[2019-05-21T14:39:22.888] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-21T14:39:22.889] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-21T14:39:22.891] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-21T14:39:22.893] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-21T14:39:22.894] [INFO] nest - AuthorsController {/authors}:
+[2019-05-21T14:39:22.896] [INFO] nest - Mapped {/create, POST} route
+[2019-05-21T14:39:22.897] [INFO] nest - Mapped {/getAll, GET} route
+[2019-05-21T14:39:22.899] [INFO] nest - Mapped {/getById/:id, GET} route
+[2019-05-21T14:39:22.901] [INFO] nest - Mapped {/updateById/:id, PUT} route
+[2019-05-21T14:39:22.902] [INFO] nest - Mapped {/deleteById/:id, DELETE} route
+[2019-05-21T14:39:22.906] [INFO] nest - Nest application successfully started

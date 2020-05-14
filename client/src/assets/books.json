@@ -1,0 +1,346 @@
+{
+  "count": 555,
+  "books": [
+    {
+      "id": 1,
+      "name": "Lorem",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        },
+        {
+          "id": 7,
+          "firstName": "Mark",
+          "lastName": "Twen"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 2,
+      "name": "Ipsum",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 2,
+          "firstName": "Jane",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": false
+    },
+    {
+      "id": 3,
+      "name": "Dolor",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 3,
+          "firstName": "Govard",
+          "lastName": "Lavcraft"
+        }
+      ],
+      "type": "Magazine",
+      "outOfLibrary": false
+    },
+    {
+      "id": 4,
+      "name": "Sit",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 4,
+          "firstName": "Joahn",
+          "lastName": "Rouling"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 5,
+      "name": "Amet",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 5,
+          "firstName": "Barb",
+          "lastName": "Hendi"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 6,
+      "name": "Lorem",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 6,
+          "firstName": "Den",
+          "lastName": "Braun"
+        }
+      ],
+      "type": "Magazine",
+      "outOfLibrary": true
+    },
+    {
+      "id": 7,
+      "name": "LOREM",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 7,
+          "firstName": "Mark",
+          "lastName": "Twen"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 8,
+      "name": "IPSUM",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 9,
+      "name": "DOLOR",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Magazine",
+      "outOfLibrary": true
+    },
+    {
+      "id": 10,
+      "name": "SIT",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 11,
+      "name": "AMET",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 12,
+      "name": "Lorem111",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Magazine",
+      "outOfLibrary": true
+    },
+    {
+      "id": 3,
+      "name": "Ipsum111",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 14,
+      "name": "Ipsum222",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 15,
+      "name": "Dolor111",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Magazine",
+      "outOfLibrary": true
+    },
+    {
+      "id": 16,
+      "name": "Sit111",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 17,
+      "name": "Amet111",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 18,
+      "name": "Lorem333",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Magazine",
+      "outOfLibrary": true
+    },
+    {
+      "id": 19,
+      "name": "Lorem444",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 20,
+      "name": "Ipsum222",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 21,
+      "name": "Dolor222",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Magazine",
+      "outOfLibrary": true
+    },
+    {
+      "id": 22,
+      "name": "Sit222",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 23,
+      "name": "Amet222",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Book",
+      "outOfLibrary": true
+    },
+    {
+      "id": 24,
+      "name": "Lorem555",
+      "description": "Ipsum dolor sit amet",
+      "authors": [
+        {
+          "id": 1,
+          "firstName": "John",
+          "lastName": "Doe"
+        }
+      ],
+      "type": "Magazine",
+      "outOfLibrary": true
+    }
+  ]
+}

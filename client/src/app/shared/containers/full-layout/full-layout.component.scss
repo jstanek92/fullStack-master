@@ -1,0 +1,13 @@
+.header-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: lightblue;
+  color: #000;
+}
+
+.body-box {
+  min-height: calc(100vh - 160px);
+}

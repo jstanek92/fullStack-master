@@ -1,0 +1,73 @@
+<h1>{{book ? ('EDIT ' + book.name + ' BOOK' ) : 'ADD BOOK'}} </h1>
+<form [formGroup]="bookForm" (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" formControlName="name" class="form-control"
+        [ngClass]="{ 'is-invalid': submitted && formCtrl.name.errors }" />
+      <div *ngIf="submitted && formCtrl.name.errors" class="invalid-feedback">
+        <div *ngIf="formCtrl.name.errors.required">Name is required</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="description">Description</label>
+      <input type="text" formControlName="description" class="form-control"
+        [ngClass]="{ 'is-invalid': submitted && formCtrl.description.errors }" />
+      <div *ngIf="submitted && formCtrl.description.errors" class="invalid-feedback">
+        <div *ngIf="formCtrl.description.errors.required">Description is required</div>
+      </div>
+    </div>
+
+    <!-- <div class="form-group">
+      <label for="authors">Authors</label>
+      <input type="text" formControlName="authors" class="form-control"
+        [ngClass]="{ 'is-invalid': submitted && formCtrl.authors.errors }" />
+      <div *ngIf="submitted && formCtrl.authors.errors" class="invalid-feedback">
+        <div *ngIf="formCtrl.authors.errors.required">Authors is required</div>
+      </div>
+    </div> -->
+
+    <div class="form-group">
+      <label for="">Authors</label>
+      <ng-multiselect-dropdown
+        [placeholder]="'Select authors'"
+        [data]="authors"
+        formControlName="authors"
+        [formControl]="formCtrl.authors"
+        [settings]="dropdownSettings"
+        (onSelect)="onItemSelect($event)"
+        (onSelectAll)="onSelectAll($event)">
+      </ng-multiselect-dropdown>
+      <div *ngIf="submitted && formCtrl.authors.errors" class="invalid-feedback">
+        <div *ngIf="formCtrl.authors.errors.required">Authors is required</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="outOfLibrary">Out Of Library</label>
+      <div class="d-flex align-items-center">
+        <input type="checkbox" formControlName="outOfLibrary" id="outOfLibrary" class="form-control w-auto mr-2" />
+        <label for="outOfLibrary" class="m-0">Book is out of Library</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="type">Book Type</label>
+      <select name="type" id="book-type" class="form-control" formControlName="type"
+        [ngClass]="{ 'is-invalid': submitted && formCtrl.type.errors }">
+        <option value="Book">Book</option>
+        <option value="Magazine">Magazine</option>
+      </select>
+      <div *ngIf="submitted && formCtrl.type.errors" class="invalid-feedback">
+        <div *ngIf="formCtrl.type.errors.required">Type is required</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <button [disabled]="loading" class="btn btn-primary" (click)="submitBook()">Save</button>
+      <img *ngIf="loading"
+        src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==" />
+      <a (click)="cancel()" class="btn btn-link">Cancel</a>
+    </div>
+  </form>
